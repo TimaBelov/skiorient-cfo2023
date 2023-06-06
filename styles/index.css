@@ -1,0 +1,13 @@
+@import url(header.css);
+@import url(main.css);
+@import url(event_docs.css);
+@import url(event_programm.css);
+@import url(starts_map.css);
+
+html {
+  font-family: "Manrope", sans-serif;
+}
+
+.main {
+  margin: 0 5px;
+}

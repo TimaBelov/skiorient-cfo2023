@@ -1,0 +1,133 @@
+.event_programm {
+  margin-top: 85px;
+}
+
+.event_programm__title {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 54px;
+
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.event_programm__item {
+  margin-top: 75px;
+  margin-right: 106px;
+
+  display: flex;
+  user-select: none;
+  align-items: center;
+}
+
+.event_programm__item:last-child {
+  margin-right: 0;
+}
+
+.event_programm__item__number {
+  width: 79px;
+  height: 79px;
+  text-align: center;
+
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 65px;
+
+  color: white;
+
+  border-radius: 1000px;
+  padding: 7px 0;
+  background-color: #221c4c;
+}
+
+.event_programm__item__description {
+  margin-left: 47px;
+}
+
+.event_programm__date {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 43px;
+}
+
+.event_programm__type {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: -0.03em;
+}
+
+@media (max-width: 1199px) {
+    .event_programm{
+        margin-top: 50px;
+    }
+    .event_programm__title{
+        font-size: 32px;
+        line-height: 43px;
+    }
+    .event_programm__item{
+        margin-top: 45px;
+        margin-right: calc(100vw * 0.06);
+    }
+    .event_programm__item__number{
+        width: 64px;
+        height: 64px;
+        text-align: center;
+
+        font-size: 40px;
+        line-height: 54px;
+        padding: 5px 0;
+    }
+    .event_programm__item__description{
+        margin-left: calc(100vw * 0.02);
+    }
+    .event_programm__date{
+        font-size: 26px;
+        line-height: 35px;
+    }
+}
+
+@media (max-width: 767px) {
+    .event_programm{
+        margin-top: 30px;
+    }
+    .event_programm__title{
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .row{
+        flex-direction: column;
+        position: relative;
+        margin-left: calc(100vw * 0.5 - 100px);
+    }
+    .event_programm__item{
+        margin-top: 25px;
+        margin-right: 0;
+         
+    }
+    .event_programm__item__number{
+        width: 42px;
+        height: 42px;
+        text-align: center;
+
+        font-size: 24px;
+        line-height: 32px;
+        padding: 5px 0;
+    }
+    .event_programm__item__description{
+        margin-left: calc(100vw * 0.02);
+    }
+    .event_programm__date{
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .event_programm__type{
+        font-size: 16px;
+        line-height: 21px;
+
+    }
+}
