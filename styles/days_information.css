@@ -29,6 +29,11 @@
   line-height: 43px;
 }
 
+.day_item__link{
+    color: #ff8562;
+    text-decoration: none;
+}
+
 @media (max-width: 1199px) {
   .day_item {
     margin-right: 100px;
