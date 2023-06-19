@@ -1,0 +1,30 @@
+.days_information{
+    text-align: center;
+
+    margin-bottom: 50px;
+}
+
+.day_list{
+    display: flex;
+    justify-content: center;
+}
+
+.day_item{
+    margin-right: 133px;
+}
+.day_item:last-child{
+    margin-right: 0;
+}
+.day_item__title{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 54px;
+
+    margin-bottom: 24px;
+}
+
+.day_item__info_item{
+   font-weight: 400;
+   font-size: 32px;
+   line-height: 43px; 
+}

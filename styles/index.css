@@ -3,6 +3,7 @@
 @import url(event_docs.css);
 @import url(event_programm.css);
 @import url(starts_map.css);
+@import url(days_information.css);
 
 html {
   font-family: "Manrope", sans-serif;
