@@ -27,16 +27,22 @@
   font-weight: 400;
   font-size: 32px;
   line-height: 43px;
+
+  margin-bottom: 5px;
+}
+
+.day_item__info_item:last-child{
+  margin-bottom: 0;
 }
 
 .day_item__link{
     color: #ff8562;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 @media (max-width: 1199px) {
   .day_item {
-    margin-right: 100px;
+    margin-right: 90px;
   }
   .day_item__title {
     font-weight: 500;
