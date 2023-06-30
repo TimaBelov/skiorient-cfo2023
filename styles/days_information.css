@@ -23,6 +23,11 @@
   margin-bottom: 24px;
 }
 
+.day_item__info{
+  display: flex;
+  flex-direction: column;
+}
+
 .day_item__info_item {
   font-weight: 400;
   font-size: 32px;
